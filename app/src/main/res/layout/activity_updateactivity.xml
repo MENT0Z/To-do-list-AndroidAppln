@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center"
+    android:background="#F3EFCC"
+    >
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardUseCompatPadding="true"
+        android:padding="3dp"
+        app:cardCornerRadius="5dp"
+        android:elevation="20dp"
+        android:backgroundTint="#00E2FF"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="UPDATE TASK"
+                android:textColor="@color/black"
+                android:textSize="35sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/addtaskinnewin22"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_margin="10dp"
+                android:background="#FFFFFF"
+                android:hint="   Enter your task here" />
+
+            <Button
+                android:id="@+id/idtoaddbtn22"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_gravity="end"
+                android:layout_margin="6dp"
+                android:backgroundTint="#FF0000"
+                android:text="UPDATE"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
